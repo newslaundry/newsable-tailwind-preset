@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 
 import { coloursPlugin } from "./plugins/colours";
 import { scalingPlugin } from "./plugins/scaling";
+import { typographyPlugin } from "./plugins/typography";
 
 /**
  * NewsAble Design System Tailwind CSS preset
@@ -11,7 +12,7 @@ import { scalingPlugin } from "./plugins/scaling";
 const newsableTailwindPreset = {
   darkMode: ["class", "[data-theme='dark']"],
   content: [],
-  plugins: [scalingPlugin, coloursPlugin]
+  plugins: [scalingPlugin, coloursPlugin, typographyPlugin]
 } satisfies Config;
 
 export { newsableTailwindPreset };
