@@ -1,0 +1,46 @@
+{
+  "name": "@newsable/tailwind-preset",
+  "version": "0.0.0",
+  "description": "",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --external tailwindcss --clean"
+  },
+  "keywords": [
+    "design-system",
+    "ui-kit",
+    "libraries",
+    "css",
+    "tailwind",
+    "tailwind-plugin",
+    "tailwind-presets",
+    "newsable",
+    "newslaundry"
+  ],
+  "author": "Rishabh Dixit <rishabh@newslaundry.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "tailwindcss": "^3.3.4",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^2.0.0 || ^3.0.0"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}
