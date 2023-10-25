@@ -1,6 +1,6 @@
 {
   "name": "@newsable/tailwind-preset",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "NewsAble Design System Tailwind CSS preset",
   "private": false,
   "publishConfig": {
