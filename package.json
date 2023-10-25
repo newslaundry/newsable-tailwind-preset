@@ -1,7 +1,7 @@
 {
   "name": "@newsable/tailwind-preset",
   "version": "0.0.0",
-  "description": "",
+  "description": "NewsAble Design System Tailwind CSS preset",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -14,7 +14,8 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --external tailwindcss --clean"
+    "build": "tsup src/index.ts --format esm,cjs --dts --external tailwindcss --clean",
+    "publish": "changeset publish"
   },
   "keywords": [
     "design-system",
@@ -30,17 +31,13 @@
   "author": "Rishabh Dixit <rishabh@newslaundry.com>",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
     "tailwindcss": "^3.3.4",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "tailwindcss": "^2.0.0 || ^3.0.0"
-  },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ]
+  }
 }
