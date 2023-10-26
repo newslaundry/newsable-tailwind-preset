@@ -10,7 +10,6 @@ import { typographyPlugin } from "./plugins/typography";
  * This preset includes colours, typography, spacing, contrast, animation, links and cursor plugins
  */
 const newsableTailwindPreset = {
-  darkMode: ["class", "[data-theme='dark']"],
   content: [],
   plugins: [scalingPlugin, coloursPlugin, typographyPlugin]
 } satisfies Config;
