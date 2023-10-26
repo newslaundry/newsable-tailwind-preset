@@ -1,5 +1,11 @@
 # @newsable/tailwind-preset
 
+## 0.2.1
+
+### Patch Changes
+
+- [#6](https://github.com/newslaundry/newsable-tailwind-preset/pull/6) [`d187086`](https://github.com/newslaundry/newsable-tailwind-preset/commit/d18708607330f5650bfc63ec7189b46ab931e489) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - fix: dark mode issue fix
+
 ## 0.2.0
 
 ### Minor Changes
