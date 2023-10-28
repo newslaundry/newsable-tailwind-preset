@@ -3,7 +3,7 @@ import plugin from "tailwindcss/plugin";
 export const typographyPlugin = plugin(
   ({ addBase, addComponents }) => {
     addBase({
-      ':root:where([data-font-size="medium"])': {
+      ':root,:root:where([data-font-size="medium"])': {
         "--typography-font-size-xs": "calc(12px * var(--scaling))",
         "--typography-font-size-sm": "calc(14px * var(--scaling))",
         "--typography-font-size-base": "calc(16px * var(--scaling))",
@@ -45,7 +45,7 @@ export const typographyPlugin = plugin(
         "--typography-letter-spacing-4xl": "-0.01em",
         "--typography-letter-spacing-5xl": "-0.025em"
       },
-      ':where([data-font-size="small"])': {
+      '[data-font-size="small"]': {
         "--typography-font-size-xs": "calc(10px * var(--scaling))",
         "--typography-font-size-sm": "calc(12px * var(--scaling))",
         "--typography-font-size-base": "calc(14px * var(--scaling))",
@@ -87,7 +87,7 @@ export const typographyPlugin = plugin(
         "--typography-letter-spacing-4xl": "-0.0075em",
         "--typography-letter-spacing-5xl": "-0.01em"
       },
-      ':where([data-font-size="large"])': {
+      '[data-font-size="large"]': {
         "--typography-font-size-xs": "calc(14px * var(--scaling))",
         "--typography-font-size-sm": "calc(16px * var(--scaling))",
         "--typography-font-size-base": "calc(18px * var(--scaling))",
