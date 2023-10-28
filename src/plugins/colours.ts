@@ -9,7 +9,7 @@ import plugin from "tailwindcss/plugin";
 export const coloursPlugin = plugin(
   ({ addBase }) => {
     addBase({
-      ':root:where([data-theme="light"])': {
+      ":root,:root:where([data-theme='light'])": {
         "--neutral-1": "240, 22%, 99%",
         "--neutral-2": "240, 20%, 98%",
         "--neutral-3": "239, 13.4%, 95.4%",
@@ -147,7 +147,7 @@ export const coloursPlugin = plugin(
         "--component-background-danger-solid-default": "var(--danger-9)",
         "--component-background-danger-solid-hover": "var(--danger-10)"
       },
-      ':where([data-theme="dark"])': {
+      '[data-theme="dark"]': {
         "--neutral-1": "240, 5%, 9.8%",
         "--neutral-2": "240, 6.9%, 11.4%",
         "--neutral-3": "227, 6.7%, 16.4%",
@@ -759,6 +759,144 @@ export const coloursPlugin = plugin(
             attention: "hsl(var(--separator-attention))",
             danger: "hsl(var(--separator-danger))"
           }
+        },
+        textColor: {
+          primary: {
+            default: "hsl(var(--text-primary-default))",
+            muted: "hsl(var(--text-primary-muted))"
+          },
+          accent: {
+            default: "hsl(var(--text-accent-default))",
+            muted: "hsl(var(--text-accent-muted))"
+          },
+          success: {
+            default: "hsl(var(--text-success-default))",
+            muted: "hsl(var(--text-success-muted))"
+          },
+          attention: {
+            default: "hsl(var(--text-attention-default))",
+            muted: "hsl(var(--text-attention-muted))"
+          },
+          danger: {
+            default: "hsl(var(--text-danger-default))",
+            muted: "hsl(var(--text-danger-muted))"
+          }
+        },
+        backgroundColor: {
+          primary: {
+            default: "hsl(var(--background-primary-default))",
+            muted: "hsl(var(--background-primary-muted))"
+          },
+          accent: {
+            default: "hsl(var(--background-accent-default))",
+            muted: "hsl(var(--background-accent-muted))"
+          },
+          success: {
+            default: "hsl(var(--background-success-default))",
+            muted: "hsl(var(--background-success-muted))"
+          },
+          attention: {
+            default: "hsl(var(--background-attention-default))",
+            muted: "hsl(var(--background-attention-muted))"
+          },
+          danger: {
+            default: "hsl(var(--background-danger-default))",
+            muted: "hsl(var(--background-danger-muted))"
+          },
+          component: {
+            primary: {
+              default: "hsl(var(--component-background-primary-default))",
+              hover: "hsl(var(--component-background-primary-hover))",
+              pressed: "hsl(var(--component-background-primary-pressed))",
+              dark: "hsl(var(--component-background-primary-dark))",
+              solid: {
+                default:
+                  "hsl(var(--component-background-primary-solid-default))",
+                hover: "hsl(var(--component-background-primary-solid-hover))"
+              }
+            },
+            accent: {
+              default: "hsl(var(--component-background-accent-default))",
+              hover: "hsl(var(--component-background-accent-hover))",
+              pressed: "hsl(var(--component-background-accent-pressed))",
+              dark: "hsl(var(--component-background-accent-dark))",
+              solid: {
+                default:
+                  "hsl(var(--component-background-accent-solid-default))",
+                hover: "hsl(var(--component-background-accent-solid-hover))"
+              }
+            },
+            success: {
+              default: "hsl(var(--component-background-success-default))",
+              hover: "hsl(var(--component-background-success-hover))",
+              pressed: "hsl(var(--component-background-success-pressed))",
+              dark: "hsl(var(--component-background-success-dark))",
+              solid: {
+                default:
+                  "hsl(var(--component-background-success-solid-default))",
+                hover: "hsl(var(--component-background-success-solid-hover))"
+              }
+            },
+            attention: {
+              default: "hsl(var(--component-background-attention-default))",
+              hover: "hsl(var(--component-background-attention-hover))",
+              pressed: "hsl(var(--component-background-attention-pressed))",
+              dark: "hsl(var(--component-background-attention-dark))",
+              solid: {
+                default:
+                  "hsl(var(--component-background-attention-solid-default))",
+                hover: "hsl(var(--component-background-attention-solid-hover))"
+              }
+            },
+            danger: {
+              default: "hsl(var(--component-background-danger-default))",
+              hover: "hsl(var(--component-background-danger-hover))",
+              pressed: "hsl(var(--component-background-danger-pressed))",
+              dark: "hsl(var(--component-background-danger-dark))",
+              solid: {
+                default:
+                  "hsl(var(--component-background-danger-solid-default))",
+                hover: "hsl(var(--component-background-danger-solid-hover))"
+              }
+            }
+          }
+        },
+        borderColor: {
+          primary: {
+            muted: "hsl(var(--border-primary-muted))",
+            default: "hsl(var(--border-primary-default))",
+            dark: "hsl(var(--border-primary-dark))"
+          },
+          accent: {
+            muted: "hsl(var(--border-accent-muted))",
+            default: "hsl(var(--border-accent-default))",
+            dark: "hsl(var(--border-accent-dark))"
+          },
+          success: {
+            muted: "hsl(var(--border-success-muted))",
+            default: "hsl(var(--border-success-default))",
+            dark: "hsl(var(--border-success-dark))"
+          },
+          attention: {
+            muted: "hsl(var(--border-attention-muted))",
+            default: "hsl(var(--border-attention-default))",
+            dark: "hsl(var(--border-attention-dark))"
+          },
+          danger: {
+            muted: "hsl(var(--border-danger-muted))",
+            default: "hsl(var(--border-danger-default))",
+            dark: "hsl(var(--border-danger-dark))"
+          }
+        },
+        ringColor: {
+          primary: "hsl(var(--ring-primary))",
+          accent: "hsl(var(--ring-accent))",
+          success: "hsl(var(--ring-success))",
+          attention: "hsl(var(--ring-attention))",
+          danger: "hsl(var(--ring-danger))"
+        },
+        ringOffsetColor: {
+          primary: "hsl(var(--neutral-1))"
         }
       }
     }

@@ -3,7 +3,7 @@ import plugin from "tailwindcss/plugin";
 export const spacingPlugin = plugin(
   ({ addBase, addUtilities }) => {
     addBase({
-      ':root:where([data-spacing="default"])': {
+      ':root,:root:where([data-spacing="default"])': {
         "--space-xxs": "calc(4px * var(--scaling))",
         "--space-xs": "calc(8px * var(--scaling))",
         "--space-sm": "calc(12px * var(--scaling))",
@@ -14,7 +14,7 @@ export const spacingPlugin = plugin(
         "--space-3xl": "calc(48px * var(--scaling))",
         "--space-4xl": "calc(64px * var(--scaling))"
       },
-      ':where([data-spacing="compact"])': {
+      '[data-spacing="compact"]': {
         "--space-xxs": "calc(2px * var(--scaling))",
         "--space-xs": "calc(4px * var(--scaling))",
         "--space-sm": "calc(8px * var(--scaling))",
@@ -25,7 +25,7 @@ export const spacingPlugin = plugin(
         "--space-3xl": "calc(40px * var(--scaling))",
         "--space-4xl": "calc(48px * var(--scaling))"
       },
-      ':where([data-spacing="comfortable"])': {
+      '[data-spacing="comfortable"]': {
         "--space-xxs": "calc(8px * var(--scaling))",
         "--space-xs": "calc(12px * var(--scaling))",
         "--space-sm": "calc(16px * var(--scaling))",
