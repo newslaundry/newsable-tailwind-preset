@@ -1,5 +1,11 @@
 # @newsable/tailwind-preset
 
+## 0.2.2
+
+### Patch Changes
+
+- [#8](https://github.com/newslaundry/newsable-tailwind-preset/pull/8) [`661a708`](https://github.com/newslaundry/newsable-tailwind-preset/commit/661a708f6867290397bdc7c4d6965a5391dfb9ea) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - fixing css variables naming
+
 ## 0.2.1
 
 ### Patch Changes
