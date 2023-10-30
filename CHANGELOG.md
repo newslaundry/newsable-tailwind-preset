@@ -1,5 +1,17 @@
 # @newsable/tailwind-preset
 
+## 1.0.0
+
+### Major Changes
+
+- [#10](https://github.com/newslaundry/newsable-tailwind-preset/pull/10) [`001e6d4`](https://github.com/newslaundry/newsable-tailwind-preset/commit/001e6d4e77c41dc47b2b48f60467d4a2efb6f0a7) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - # Major changes
+
+  New plugins for animation, contrast, links and cursors
+
+  ## Patch changes
+
+  Updated dependencies: [tailwindcss v3.3.5](https://github.com/tailwindlabs/tailwindcss/releases/tag/v3.3.5)
+
 ## 0.2.2
 
 ### Patch Changes
