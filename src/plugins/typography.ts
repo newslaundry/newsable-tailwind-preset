@@ -1,5 +1,11 @@
 import plugin from "tailwindcss/plugin";
 
+/**
+ * A Tailwind CSS plugin for typography
+ *
+ * @param options An object containing at least one theme object.
+ * @returns A Tailwind CSS plugin that sets font size, font weight, line height and letter spacing using data set properties
+ */
 export const typographyPlugin = plugin(
   ({ addBase, addComponents }) => {
     addBase({
