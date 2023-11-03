@@ -1,5 +1,11 @@
 # @newsable/tailwind-preset
 
+## 1.0.1
+
+### Patch Changes
+
+- [`2f0f5a5`](https://github.com/newslaundry/newsable-tailwind-preset/commit/2f0f5a589281140656496a118a96548d8db5def0) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - added focus ring utility classes
+
 ## 1.0.0
 
 ### Major Changes
