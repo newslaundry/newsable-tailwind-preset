@@ -1,5 +1,11 @@
 # @newsable/tailwind-preset
 
+## 1.0.2
+
+### Patch Changes
+
+- [`161e214`](https://github.com/newslaundry/newsable-tailwind-preset/commit/161e2144225db2084ed8aed8767df5143538c1de) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - fixed unused plugins
+
 ## 1.0.1
 
 ### Patch Changes
