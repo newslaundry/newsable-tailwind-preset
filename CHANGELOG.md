@@ -1,5 +1,11 @@
 # @newsable/tailwind-preset
 
+## 1.0.3
+
+### Patch Changes
+
+- [`03fda5e`](https://github.com/newslaundry/newsable-tailwind-preset/commit/03fda5e285a99c934b14ba07f45e36021f58a78f) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - removed build breaking cursor plugin
+
 ## 1.0.2
 
 ### Patch Changes
