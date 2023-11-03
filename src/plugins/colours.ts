@@ -7,7 +7,7 @@ import plugin from "tailwindcss/plugin";
  * @returns A Tailwind CSS plugin with light, dark and colour filter themes
  */
 export const coloursPlugin = plugin(
-  ({ addBase }) => {
+  ({ addBase, addUtilities }) => {
     addBase({
       ":root,:root:where([data-theme='light'])": {
         "--neutral-1": "240, 22%, 99%",
@@ -675,6 +675,52 @@ export const coloursPlugin = plugin(
         "--component-background-danger-solid-default": "var(--danger-9)",
         "--component-background-danger-solid-hover": "var(--danger-10)"
       }
+    });
+
+    addUtilities({
+      ".focus-ring-primary": {
+        "@apply focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-0":
+          {}
+      },
+      ".focus-ring-accent": {
+        "@apply focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-0":
+          {}
+      },
+      ".focus-ring-success": {
+        "@apply focus:outline-none focus:ring-2 focus:ring-success focus:ring-offset-0":
+          {}
+      },
+      ".focus-ring-attention": {
+        "@apply focus:outline-none focus:ring-2 focus:ring-attention focus:ring-offset-0":
+          {}
+      },
+      ".focus-ring-danger": {
+        "@apply focus:outline-none focus:ring-2 focus:ring-danger focus:ring-offset-0":
+          {}
+      },
+      ":where([data-font-size='large'],[data-dyslexia-mode='enabled'],[data-reduced-motion='enabled'],[data-spacing='comfortable'],[data-high-contrast='enabled'],[data-cursor='bigger'],[data-links='underlined'],[data-filter='deuteranopia'],[data-filter='protanopia'],[data-filter='tritanopia'])":
+        {
+          ".focus-ring-primary": {
+            "@apply focus:outline-none focus:ring-4 focus:ring-primary focus:ring-offset-2 focus:ring-offset-primary":
+              {}
+          },
+          ".focus-ring-accent": {
+            "@apply focus:outline-none focus:ring-4 focus:ring-accent focus:ring-offset-2 focus:ring-offset-primary":
+              {}
+          },
+          ".focus-ring-success": {
+            "@apply focus:outline-none focus:ring-4 focus:ring-success focus:ring-offset-2 focus:ring-offset-primary":
+              {}
+          },
+          ".focus-ring-attention": {
+            "@apply focus:outline-none focus:ring-4 focus:ring-attention focus:ring-offset-2 focus:ring-offset-primary":
+              {}
+          },
+          ".focus-ring-danger": {
+            "@apply focus:outline-none focus:ring-4 focus:ring-danger focus:ring-offset-2 focus:ring-offset-primary":
+              {}
+          }
+        }
     });
   },
   {
