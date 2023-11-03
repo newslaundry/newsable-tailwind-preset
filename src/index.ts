@@ -3,7 +3,6 @@ import type { Config } from "tailwindcss";
 import { animationPlugin } from "./plugins/animation";
 import { coloursPlugin } from "./plugins/colours";
 import { contrastPlugin } from "./plugins/contrast";
-import { cursorsPlugin } from "./plugins/cursors";
 import { linksPlugin } from "./plugins/links";
 import { scalingPlugin } from "./plugins/scaling";
 import { spacingPlugin } from "./plugins/spacing";
@@ -22,7 +21,7 @@ const newsableTailwindPreset = {
     contrastPlugin,
     typographyPlugin,
     spacingPlugin,
-    cursorsPlugin,
+    // cursorsPlugin,
     linksPlugin,
     animationPlugin
   ]
