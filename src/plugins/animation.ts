@@ -10,7 +10,7 @@ export const animationPlugin = plugin(
   ({ addBase }) => {
     addBase({
       ":root": {
-        "--animation-timing-default": "300ms",
+        "--animation-timing-default": "200ms",
         "@media (prefers-reduced-motion)": {
           "--animation-timing-default": "0ms"
         }
@@ -19,7 +19,7 @@ export const animationPlugin = plugin(
         "--animation-timing-default": "0ms"
       },
       '[data-reduced-motion="disabled"]': {
-        "--animation-timing-default": "300ms"
+        "--animation-timing-default": "200ms"
       }
     });
   },
