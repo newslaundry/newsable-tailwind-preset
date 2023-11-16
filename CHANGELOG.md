@@ -1,5 +1,11 @@
 # @newsable/tailwind-preset
 
+## 2.0.0
+
+### Major Changes
+
+- [#18](https://github.com/newslaundry/newsable-tailwind-preset/pull/18) [`086865c`](https://github.com/newslaundry/newsable-tailwind-preset/commit/086865cab823bfd0435d63d829b2b9d791351723) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - New colour variables naming, animation timing and link fixes
+
 ## 1.0.3
 
 ### Patch Changes
