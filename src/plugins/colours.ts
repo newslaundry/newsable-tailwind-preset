@@ -71,8 +71,8 @@ export const coloursPlugin = plugin(
         "--attention-11": "25, 50%, 38%",
         "--attention-12": "25, 40%, 22%",
         "--overlay": "0, 0%, 0%, 0.608",
-        "--text-primary-default": "var(--neutral-12)",
-        "--text-primary-muted": "var(--neutral-11)",
+        "--text-neutral-default": "var(--neutral-12)",
+        "--text-neutral-muted": "var(--neutral-11)",
         "--text-accent-default": "var(--accent-12)",
         "--text-accent-muted": "var(--accent-11)",
         "--text-success-default": "var(--success-12)",
@@ -81,8 +81,8 @@ export const coloursPlugin = plugin(
         "--text-attention-muted": "var(--attention-11)",
         "--text-danger-default": "var(--danger-12)",
         "--text-danger-muted": "var(--danger-11)",
-        "--background-primary-default": "var(--neutral-1)",
-        "--background-primary-muted": "var(--neutral-2)",
+        "--background-neutral-default": "var(--neutral-1)",
+        "--background-neutral-muted": "var(--neutral-2)",
         "--background-accent-default": "var(--accent-1)",
         "--background-accent-muted": "var(--accent-2)",
         "--background-success-default": "var(--success-1)",
@@ -91,9 +91,9 @@ export const coloursPlugin = plugin(
         "--background-attention-muted": "var(--attention-2)",
         "--background-danger-default": "var(--danger-1)",
         "--background-danger-muted": "var(--danger-2)",
-        "--border-primary-muted": "var(--neutral-6)",
-        "--border-primary-default": "var(--neutral-7)",
-        "--border-primary-dark": "var(--neutral-8)",
+        "--border-neutral-muted": "var(--neutral-6)",
+        "--border-neutral-default": "var(--neutral-7)",
+        "--border-neutral-dark": "var(--neutral-8)",
         "--border-accent-muted": "var(--accent-6)",
         "--border-accent-default": "var(--accent-7)",
         "--border-accent-dark": "var(--accent-8)",
@@ -106,22 +106,22 @@ export const coloursPlugin = plugin(
         "--border-danger-muted": "var(--danger-6)",
         "--border-danger-default": "var(--danger-7)",
         "--border-danger-dark": "var(--danger-8)",
-        "--ring-primary": "var(--neutral-7)",
+        "--ring-neutral": "var(--neutral-7)",
         "--ring-accent": "var(--accent-7)",
         "--ring-success": "var(--success-7)",
         "--ring-attention": "var(--attention-7)",
         "--ring-danger": "var(--danger-7)",
-        "--separator-primary": "var(--neutral-6)",
+        "--separator-neutral": "var(--neutral-6)",
         "--separator-accent": "var(--accent-6)",
         "--separator-success": "var(--success-6)",
         "--separator-attention": "var(--attention-6)",
         "--separator-danger": "var(--danger-6)",
-        "--component-background-primary-default": "var(--neutral-3)",
-        "--component-background-primary-hover": "var(--neutral-4)",
-        "--component-background-primary-pressed": "var(--neutral-5)",
-        "--component-background-primary-dark": "var(--neutral-6)",
-        "--component-background-primary-solid-default": "var(--neutral-9)",
-        "--component-background-primary-solid-hover": "var(--neutral-10)",
+        "--component-background-neutral-default": "var(--neutral-3)",
+        "--component-background-neutral-hover": "var(--neutral-4)",
+        "--component-background-neutral-pressed": "var(--neutral-5)",
+        "--component-background-neutral-dark": "var(--neutral-6)",
+        "--component-background-neutral-solid-default": "var(--neutral-9)",
+        "--component-background-neutral-solid-hover": "var(--neutral-10)",
         "--component-background-accent-default": "var(--accent-3)",
         "--component-background-accent-hover": "var(--accent-4)",
         "--component-background-accent-pressed": "var(--accent-5)",
@@ -209,8 +209,8 @@ export const coloursPlugin = plugin(
         "--attention-11": "43, 100%, 65%",
         "--attention-12": "41, 100%, 85%",
         "--overlay": "0, 0%, 0%, 0.608",
-        "--text-primary-default": "var(--neutral-12)",
-        "--text-primary-muted": "var(--neutral-11)",
+        "--text-neutral-default": "var(--neutral-12)",
+        "--text-neutral-muted": "var(--neutral-11)",
         "--text-accent-default": "var(--accent-12)",
         "--text-accent-muted": "var(--accent-11)",
         "--text-success-default": "var(--success-12)",
@@ -219,8 +219,8 @@ export const coloursPlugin = plugin(
         "--text-attention-muted": "var(--attention-11)",
         "--text-danger-default": "var(--danger-12)",
         "--text-danger-muted": "var(--danger-11)",
-        "--background-primary-default": "var(--neutral-1)",
-        "--background-primary-muted": "var(--neutral-2)",
+        "--background-neutral-default": "var(--neutral-1)",
+        "--background-neutral-muted": "var(--neutral-2)",
         "--background-accent-default": "var(--accent-1)",
         "--background-accent-muted": "var(--accent-2)",
         "--background-success-default": "var(--success-1)",
@@ -229,9 +229,9 @@ export const coloursPlugin = plugin(
         "--background-attention-muted": "var(--attention-2)",
         "--background-danger-default": "var(--danger-1)",
         "--background-danger-muted": "var(--danger-2)",
-        "--border-primary-muted": "var(--neutral-6)",
-        "--border-primary-default": "var(--neutral-7)",
-        "--border-primary-dark": "var(--neutral-8)",
+        "--border-neutral-muted": "var(--neutral-6)",
+        "--border-neutral-default": "var(--neutral-7)",
+        "--border-neutral-dark": "var(--neutral-8)",
         "--border-accent-muted": "var(--accent-6)",
         "--border-accent-default": "var(--accent-7)",
         "--border-accent-dark": "var(--accent-8)",
@@ -244,22 +244,22 @@ export const coloursPlugin = plugin(
         "--border-danger-muted": "var(--danger-6)",
         "--border-danger-default": "var(--danger-7)",
         "--border-danger-dark": "var(--danger-8)",
-        "--ring-primary": "var(--neutral-7)",
+        "--ring-neutral": "var(--neutral-7)",
         "--ring-accent": "var(--accent-7)",
         "--ring-success": "var(--success-7)",
         "--ring-attention": "var(--attention-7)",
         "--ring-danger": "var(--danger-7)",
-        "--separator-primary": "var(--neutral-6)",
+        "--separator-neutral": "var(--neutral-6)",
         "--separator-accent": "var(--accent-6)",
         "--separator-success": "var(--success-6)",
         "--separator-attention": "var(--attention-6)",
         "--separator-danger": "var(--danger-6)",
-        "--component-background-primary-default": "var(--neutral-3)",
-        "--component-background-primary-hover": "var(--neutral-4)",
-        "--component-background-primary-pressed": "var(--neutral-5)",
-        "--component-background-primary-dark": "var(--neutral-6)",
-        "--component-background-primary-solid-default": "var(--neutral-9)",
-        "--component-background-primary-solid-hover": "var(--neutral-10)",
+        "--component-background-neutral-default": "var(--neutral-3)",
+        "--component-background-neutral-hover": "var(--neutral-4)",
+        "--component-background-neutral-pressed": "var(--neutral-5)",
+        "--component-background-neutral-dark": "var(--neutral-6)",
+        "--component-background-neutral-solid-default": "var(--neutral-9)",
+        "--component-background-neutral-solid-hover": "var(--neutral-10)",
         "--component-background-accent-default": "var(--accent-3)",
         "--component-background-accent-hover": "var(--accent-4)",
         "--component-background-accent-pressed": "var(--accent-5)",
@@ -678,8 +678,8 @@ export const coloursPlugin = plugin(
     });
 
     addUtilities({
-      ".focus-ring-primary": {
-        "@apply focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-0":
+      ".focus-ring-neutral": {
+        "@apply focus:outline-none focus:ring-2 focus:ring-neutral focus:ring-offset-0":
           {}
       },
       ".focus-ring-accent": {
@@ -700,24 +700,24 @@ export const coloursPlugin = plugin(
       },
       ":where([data-font-size='large'],[data-dyslexia-mode='enabled'],[data-reduced-motion='enabled'],[data-spacing='comfortable'],[data-high-contrast='enabled'],[data-cursor='bigger'],[data-links='underlined'],[data-filter='deuteranopia'],[data-filter='protanopia'],[data-filter='tritanopia'])":
         {
-          ".focus-ring-primary": {
-            "@apply focus:outline-none focus:ring-4 focus:ring-primary focus:ring-offset-2 focus:ring-offset-primary":
+          ".focus-ring-neutral": {
+            "@apply focus:outline-none focus:ring-4 focus:ring-neutral focus:ring-offset-2 focus:ring-offset-neutral":
               {}
           },
           ".focus-ring-accent": {
-            "@apply focus:outline-none focus:ring-4 focus:ring-accent focus:ring-offset-2 focus:ring-offset-primary":
+            "@apply focus:outline-none focus:ring-4 focus:ring-accent focus:ring-offset-2 focus:ring-offset-neutral":
               {}
           },
           ".focus-ring-success": {
-            "@apply focus:outline-none focus:ring-4 focus:ring-success focus:ring-offset-2 focus:ring-offset-primary":
+            "@apply focus:outline-none focus:ring-4 focus:ring-success focus:ring-offset-2 focus:ring-offset-neutral":
               {}
           },
           ".focus-ring-attention": {
-            "@apply focus:outline-none focus:ring-4 focus:ring-attention focus:ring-offset-2 focus:ring-offset-primary":
+            "@apply focus:outline-none focus:ring-4 focus:ring-attention focus:ring-offset-2 focus:ring-offset-neutral":
               {}
           },
           ".focus-ring-danger": {
-            "@apply focus:outline-none focus:ring-4 focus:ring-danger focus:ring-offset-2 focus:ring-offset-primary":
+            "@apply focus:outline-none focus:ring-4 focus:ring-danger focus:ring-offset-2 focus:ring-offset-neutral":
               {}
           }
         }
@@ -799,7 +799,7 @@ export const coloursPlugin = plugin(
           },
           overlay: "hsla(var(--overlay))",
           separator: {
-            primary: "hsl(var(--separator-primary))",
+            neutral: "hsl(var(--separator-neutral))",
             accent: "hsl(var(--separator-accent))",
             success: "hsl(var(--separator-success))",
             attention: "hsl(var(--separator-attention))",
@@ -807,9 +807,9 @@ export const coloursPlugin = plugin(
           }
         },
         textColor: {
-          primary: {
-            default: "hsl(var(--text-primary-default))",
-            muted: "hsl(var(--text-primary-muted))"
+          neutral: {
+            default: "hsl(var(--text-neutral-default))",
+            muted: "hsl(var(--text-neutral-muted))"
           },
           accent: {
             default: "hsl(var(--text-accent-default))",
@@ -829,9 +829,9 @@ export const coloursPlugin = plugin(
           }
         },
         backgroundColor: {
-          primary: {
-            default: "hsl(var(--background-primary-default))",
-            muted: "hsl(var(--background-primary-muted))"
+          neutral: {
+            default: "hsl(var(--background-neutral-default))",
+            muted: "hsl(var(--background-neutral-muted))"
           },
           accent: {
             default: "hsl(var(--background-accent-default))",
@@ -850,15 +850,15 @@ export const coloursPlugin = plugin(
             muted: "hsl(var(--background-danger-muted))"
           },
           component: {
-            primary: {
-              default: "hsl(var(--component-background-primary-default))",
-              hover: "hsl(var(--component-background-primary-hover))",
-              pressed: "hsl(var(--component-background-primary-pressed))",
-              dark: "hsl(var(--component-background-primary-dark))",
+            neutral: {
+              default: "hsl(var(--component-background-neutral-default))",
+              hover: "hsl(var(--component-background-neutral-hover))",
+              pressed: "hsl(var(--component-background-neutral-pressed))",
+              dark: "hsl(var(--component-background-neutral-dark))",
               solid: {
                 default:
-                  "hsl(var(--component-background-primary-solid-default))",
-                hover: "hsl(var(--component-background-primary-solid-hover))"
+                  "hsl(var(--component-background-neutral-solid-default))",
+                hover: "hsl(var(--component-background-neutral-solid-hover))"
               }
             },
             accent: {
@@ -908,10 +908,10 @@ export const coloursPlugin = plugin(
           }
         },
         borderColor: {
-          primary: {
-            muted: "hsl(var(--border-primary-muted))",
-            default: "hsl(var(--border-primary-default))",
-            dark: "hsl(var(--border-primary-dark))"
+          neutral: {
+            muted: "hsl(var(--border-neutral-muted))",
+            default: "hsl(var(--border-neutral-default))",
+            dark: "hsl(var(--border-neutral-dark))"
           },
           accent: {
             muted: "hsl(var(--border-accent-muted))",
@@ -935,14 +935,14 @@ export const coloursPlugin = plugin(
           }
         },
         ringColor: {
-          primary: "hsl(var(--ring-primary))",
+          neutral: "hsl(var(--ring-neutral))",
           accent: "hsl(var(--ring-accent))",
           success: "hsl(var(--ring-success))",
           attention: "hsl(var(--ring-attention))",
           danger: "hsl(var(--ring-danger))"
         },
         ringOffsetColor: {
-          primary: "hsl(var(--neutral-1))"
+          neutral: "hsl(var(--neutral-1))"
         }
       }
     }

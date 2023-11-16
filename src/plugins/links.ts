@@ -9,12 +9,11 @@ import plugin from "tailwindcss/plugin";
 export const linksPlugin = plugin(({ addBase }) => {
   addBase({
     ":root": {
-      a: { color: "inherit", textDecoration: "inherit" },
+      a: { textDecoration: "inherit" },
       "a:hover": { textDecoration: "underline", textUnderlineOffset: "4px" }
     },
     '[data-links="underlined"]': {
       a: {
-        color: "inherit",
         textDecoration: "underline",
         textUnderlineOffset: "4px"
       },
