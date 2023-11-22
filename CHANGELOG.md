@@ -1,5 +1,11 @@
 # @newsable/tailwind-preset
 
+## 2.0.1
+
+### Patch Changes
+
+- [#20](https://github.com/newslaundry/newsable-tailwind-preset/pull/20) [`a6239c2`](https://github.com/newslaundry/newsable-tailwind-preset/commit/a6239c21707b1a162b3099ef98cddb3de3be10a6) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - fixes in typography plugin for font size, letter spacing and line height
+
 ## 2.0.0
 
 ### Major Changes
