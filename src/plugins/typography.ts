@@ -218,15 +218,97 @@ export const typographyPlugin = plugin(
     theme: {
       extend: {
         fontSize: {
-          xs: "var(--typography-font-size-xs)",
-          sm: "var(--typography-font-size-sm)",
-          base: "var(--typography-font-size-base)",
-          lg: "var(--typography-font-size-lg)",
-          xl: "var(--typography-font-size-xl)",
-          "2xl": "var(--typography-font-size-2xl)",
-          "3xl": "var(--typography-font-size-3xl)",
-          "4xl": "var(--typography-font-size-4xl)",
-          "5xl": "var(--typography-font-size-5xl)"
+          xs: [
+            "var(--typography-font-size-xs)",
+            {
+              lineHeight: "var(--typography-line-height-xs)",
+              letterSpacing: "var(--typography-letter-spacing-xs)"
+            }
+          ],
+          sm: [
+            "var(--typography-font-size-sm)",
+            {
+              lineHeight: "var(--typography-line-height-sm)",
+              letterSpacing: "var(--typography-letter-spacing-sm)"
+            }
+          ],
+          base: [
+            "var(--typography-font-size-base)",
+            {
+              lineHeight: "var(--typography-line-height-base)",
+              letterSpacing: "var(--typography-letter-spacing-base)"
+            }
+          ],
+          lg: [
+            "var(--typography-font-size-lg)",
+            {
+              lineHeight: "var(--typography-line-height-lg)",
+              letterSpacing: "var(--typography-letter-spacing-lg)"
+            }
+          ],
+          xl: [
+            "var(--typography-font-size-xl)",
+            {
+              lineHeight: "var(--typography-line-height-xl)",
+              letterSpacing: "var(--typography-letter-spacing-xl)"
+            }
+          ],
+          "2xl": [
+            "var(--typography-font-size-2xl)",
+            {
+              lineHeight: "var(--typography-line-height-2xl)",
+              letterSpacing: "var(--typography-letter-spacing-2xl)"
+            }
+          ],
+          "3xl": [
+            "var(--typography-font-size-3xl)",
+            {
+              lineHeight: "var(--typography-line-height-3xl)",
+              letterSpacing: "var(--typography-letter-spacing-3xl)"
+            }
+          ],
+          "4xl": [
+            "var(--typography-font-size-4xl)",
+            {
+              lineHeight: "var(--typography-line-height-4xl)",
+              letterSpacing: "var(--typography-letter-spacing-4xl)"
+            }
+          ],
+          "5xl": [
+            "var(--typography-font-size-5xl)",
+            {
+              lineHeight: "var(--typography-line-height-5xl)",
+              letterSpacing: "var(--typography-letter-spacing-5xl)"
+            }
+          ]
+        },
+        lineHeight: {
+          xs: "var(--typography-line-height-xs)",
+          sm: "var(--typography-line-height-sm)",
+          base: "var(--typography-line-height-base)",
+          lg: "var(--typography-line-height-lg)",
+          xl: "var(--typography-line-height-xl)",
+          "2xl": "var(--typography-line-height-2xl)",
+          "3xl": "var(--typography-line-height-3xl)",
+          "4xl": "var(--typography-line-height-4xl)",
+          "5xl": "var(--typography-line-height-5xl)",
+          "heading-h6": "var(--typography-heading-line-height-h6)",
+          "heading-h5": "var(--typography-heading-line-height-h5)",
+          "heading-h4": "var(--typography-heading-line-height-h4)",
+          "heading-h3": "var(--typography-heading-line-height-h3)",
+          "heading-h2": "var(--typography-heading-line-height-h2)",
+          "heading-h1": "var(--typography-heading-line-height-h1)"
+        },
+        letterSpacing: {
+          xs: "var(--typography-letter-spacing-xs)",
+          sm: "var(--typography-letter-spacing-sm)",
+          base: "var(--typography-letter-spacing-base)",
+          lg: "var(--typography-letter-spacing-lg)",
+          xl: "var(--typography-letter-spacing-xl)",
+          "2xl": "var(--typography-letter-spacing-2xl)",
+          "3xl": "var(--typography-letter-spacing-3xl)",
+          "4xl": "var(--typography-letter-spacing-4xl)",
+          "5xl": "var(--typography-letter-spacing-5xl)"
         }
       }
     }
