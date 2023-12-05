@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --external tailwindcss --clean",
-    "publish": "changeset publish"
+    "release": "changeset publish"
   },
   "keywords": [
     "design-system",
