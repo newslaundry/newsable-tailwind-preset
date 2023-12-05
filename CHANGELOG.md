@@ -1,5 +1,11 @@
 # @newsable/tailwind-preset
 
+## 2.1.0
+
+### Minor Changes
+
+- [#22](https://github.com/newslaundry/newsable-tailwind-preset/pull/22) [`be0c91e`](https://github.com/newslaundry/newsable-tailwind-preset/commit/be0c91ed2f72a1f71943af0f57d24ffed32cce69) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - changed colours from hsl to hex
+
 ## 2.0.1
 
 ### Patch Changes
